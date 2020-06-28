@@ -978,6 +978,14 @@ article {
 .about-desc h3 {
   font-weight: 500; }
 
+.about-desc p {
+  text-align: justify;
+}
+
+.about-desc div span img {
+  width: 19%;
+}
+
 .staff-img2 {
   float: left;
   width: 100%;
@@ -1613,4 +1621,58 @@ input[type="text"] {
   .con-info p span:last-child img {
     width: 20% !important;
   }
+}
+
+#slider {
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#slider figure {
+  position: relative;
+  width: 200%;
+  margin: 0;
+  left: 0;
+  animation:10s slider infinite;
+  object-fit: cover;
+}
+
+#slider figure img {
+  width: 10%;
+  float: left;
+}
+
+@keyframes slider{
+  0% {
+      left: 0;
+  }
+  16.66% {
+      left: 0;
+  }
+  33.33% {
+      left: -100%;
+  }
+
+  50% {
+      left: -100%;
+  }
+
+  33.33% {
+    left: -100%;
+}
+
+  66.6% {
+    left: -100%;
+} 
+
+  83.2% {
+    left: 0;
+  }
+
+  100% {
+    left: 0;
+}
+
 }
