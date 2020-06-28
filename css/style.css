@@ -1594,3 +1594,12 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+
+.con-info span img {
+  width: 48%;
+}
+
+.con-info p span:last-child img {
+  width: 100% !important;
+}
