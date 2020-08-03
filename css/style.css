@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-top: -6.8em;
     z-index: 1; }
   #colorlib-intro .tab-content {
-    padding: 3em 2em !important;
+    padding: 1em 2em !important;
     background: #fff; }
   #colorlib-intro .nav-tabs {
     margin: 0 !important;
