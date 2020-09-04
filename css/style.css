@@ -406,7 +406,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .colorlib-light-grey {
   background: #fafafa; }
 
-#colorlib-about,
+#colorlib-about{
+  padding: 1em 0;
+  clear: both;
+}
+
 #colorlib-services,
 #colorlib-contact,
 #colorlib-testimony,
@@ -415,6 +419,10 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-subscribe {
   padding: 5em 0;
   clear: both; }
+
+  #colorlib-services{
+    padding-bottom: 1em;
+  }
 
 #colorlib-intro {
   clear: both; }
@@ -1735,7 +1743,9 @@ input[type="text"] {
 
 	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
 	.social ul li .icon-whatsapp {background: #25d366;}
-	.social ul li .icon-mail {background: #666666;}
+  .social ul li .icon-mail {background: #666666;}
+  .social ul li .icon-instagram {background: #E1306C;}
+
 
 	.social ul li a:hover {
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
